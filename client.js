@@ -291,7 +291,7 @@ function view (state, prev, send) {
             #users online: ${state.numberUsers}
           </a>
           <a title="GitHub"
-            href="/github/choochatbot"
+            href="https://github.com/plaey/chatbot"
             class="f6 fw6 dim link black-70 mr1 mr3-m mr4-l dn dib-l"
           >
             GitHub
