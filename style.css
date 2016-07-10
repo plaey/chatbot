@@ -1,0 +1,19 @@
+header, footer {
+  position: fixed;
+}
+header {
+  top: 0px;
+}
+footer {
+  bottom: 4px;
+}
+footer, form, fieldset {
+  height: 75px;
+}
+input[type="text"] {
+  width: 85%;
+  background-color: #E8FDF5;
+}
+input[type="submit"] {
+  width: 12%;
+}

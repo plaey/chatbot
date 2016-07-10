@@ -1,0 +1,39 @@
+{
+  "name": "chatbot",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Chatbot demo app showcasing choo tachyons and socketio",
+  "main": "client.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "watch:dev": "NODE_ENV=development nodemon server.js",
+    "start:dev": "NODE_ENV=development node server.js",
+    "not:run": "browserify -t envify -g yo-yoify -g unassertify -g es2020 -g uglifyify client.js -o bundle.js | uglifyjs"
+  },
+  "keywords": ["chatbot", "choo", "tachyons", "socketio"],
+  "author": {
+    "name": "minicast",
+    "email": "minicast@gmx.com"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/plaey/chatbot.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bankai": "^2.0.5",
+    "browserify": "^13.0.1",
+    "choo": "^3.0.1",
+    "dotenv": "^2.0.0",
+    "envify": "^3.4.1",
+    "es2020": "^1.1.7",
+    "google-maps-api": "^2.0.1",
+    "server-router": "^2.1.0",
+    "sheetify": "^5.0.3",
+    "sheetify-cssnext": "^1.0.7",
+    "socket.io": "^1.4.8",
+    "tachyons": "^4.0.1",
+    "yo-yoify": "^3.2.0"
+  },
+  "devDependencies": {}
+}

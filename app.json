@@ -1,0 +1,8 @@
+{
+  "name": "Chatbot",
+  "description": "Chatbot demo app showcasing choo tachyons and socketio",
+  "repository": "https://github.com/plaey/chatbot.git",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["chatbot", "choo", "tachyons", "socketio"],
+  "image": "heroku/nodejs"
+}
