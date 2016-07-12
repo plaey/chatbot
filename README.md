@@ -14,6 +14,8 @@ git clone this repo and
 npm install
 ```
 
+add an `.env` file
+
 
 ## Deploy
 

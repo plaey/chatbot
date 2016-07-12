@@ -23,8 +23,8 @@ function createRouter () {
   const css = bankai.css({ use: [ 'sheetify-cssnext' ]})
   router.on('/bundle.css', (req, res) => css(req, res).pipe(res))
 
-  const js = bankai.js(browserify, require.resolve('./client.js'),
-    { transform: [ 'envify', 'yo-yoify', 'es2020' ] }
+  const js = bankai.js(browserify, require.resolve('./client/main.js'),
+    { transform: [ 'envify', 'yo-yoify', 'es2020', 'babelify' ] }
   )
   router.on('/bundle.js', (req, res) => js(req, res).pipe(res))
 

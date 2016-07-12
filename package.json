@@ -10,17 +10,24 @@
     "start:dev": "NODE_ENV=development node server.js",
     "not:run": "browserify -t envify -g yo-yoify -g unassertify -g es2020 -g uglifyify client.js -o bundle.js | uglifyjs"
   },
-  "keywords": ["chatbot", "choo", "tachyons", "socketio"],
+  "keywords": [
+    "chatbot",
+    "choo",
+    "tachyons",
+    "socketio"
+  ],
   "author": {
     "name": "minicast",
     "email": "minicast@gmx.com"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/plaey/chatbot.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plaey/chatbot.git"
   },
   "license": "MIT",
   "dependencies": {
+    "babel-preset-es2017": "^1.4.0",
+    "babelify": "^7.3.0",
     "bankai": "^2.0.5",
     "browserify": "^13.0.1",
     "choo": "^3.0.1",
